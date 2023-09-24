@@ -1,7 +1,7 @@
 ---
-name: featrue
-about: Suggest an idea for this project
-title: '[feat] #[issue number] [issue name]'
+name: Study
+about: Github Study Issue
+title: '[이름] Git 공부 주제를 작성합니다.'
 labels: ''
 assignees: ''
 ---
