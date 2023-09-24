@@ -2,6 +2,8 @@
 
 - Leets가 `Github`를 공부하는 레포지토리입니다.
 
+<br>
+
 ## 목적
 
 - `Github`를 사용하는 이유는 너무나 명확합니다.
@@ -41,14 +43,15 @@
 <details>
   <summary>펼쳐 보기</summary>
 
+<br>
+
 # Leets Git 명령어 정리
 
 ### 준비물
 
 - IDE (BE: `Intellij`, FE : `VSCode`)
 - Github 계정
-- Access Token 생성
-  - `Mac`만 해당
+- Access Token 생성 (`Mac`만 해당)
   1. Github 설정 맨 아래 `Developer settings` 선택
   2. `Personal access tokens` 의 `Tokens(classic)` 클릭
   3. `Generate new token(classic)` 클릭
@@ -58,17 +61,19 @@
 
 <br>
 
+![Untitled](https://github.com/Leets-Official/Leets-FE/assets/86355699/37dcfee8-e554-489b-b9bd-6f03a75161fa)
+
 ![Untitled 1](https://github.com/Leets-Official/Leets-FE/assets/86355699/4735903c-aa8c-4d29-9565-fbac999c262e)
 
 ![Untitled 2](https://github.com/Leets-Official/Leets-FE/assets/86355699/c9864d50-14ec-4e3f-a956-1c633b19ed54)
-
-![Untitled 3](https://github.com/Leets-Official/Leets-FE/assets/86355699/1c6abcad-bf81-47a2-8cd7-febb949fabea)
 
 <br>
 
 ### 레포지토리 만들기
 
 - 새로운 레포지토리 만들기
+
+![Untitled 3](https://github.com/Leets-Official/Leets-FE/assets/86355699/1c6abcad-bf81-47a2-8cd7-febb949fabea)
 
 ![Untitled 4](https://github.com/Leets-Official/Leets-FE/assets/86355699/6403f771-fb94-4691-b3b8-4495c030252f)
 
@@ -81,9 +86,7 @@
 
 <br>
 
-<aside>
-💡 아래부터는 `IDE`의 터미널에서 설정
-</aside>
+> 💡 아래부터는 `IDE`의 터미널에서 설정
 
 <br>
 
@@ -328,7 +331,7 @@ git pull origin master/main
 
 <br>
 
-[https://github.com/Collection50/LEETS/issues](https://github.com/Collection50/LEETS/issues)
+[예시](https://github.com/Leets-Official/Leets-FE/issues)
 
 <br>
 
@@ -342,7 +345,7 @@ git pull origin master/main
 
 <br>
 
-![Untitled 11](https://github.com/Leets-Official/Leets-FE/assets/86355699/88f26389-6b4b-4033-8cdf-1981d3c4e36e)
+![Untitled 10](https://github.com/Leets-Official/Leets-FE/assets/86355699/ad93593c-24e5-4604-b65e-cd0f4a9042b5)
 
 <br>
 
@@ -361,7 +364,7 @@ git pull origin {브랜치명}
 
 <br>
 
-![Untitled](https://github.com/Leets-Official/Leets-FE/assets/86355699/37dcfee8-e554-489b-b9bd-6f03a75161fa)
+![Untitled 11](https://github.com/Leets-Official/Leets-FE/assets/86355699/88f26389-6b4b-4033-8cdf-1981d3c4e36e)
 
 <br>
 
