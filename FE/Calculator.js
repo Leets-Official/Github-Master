@@ -3,11 +3,11 @@ class Calculator {
     return a + b;
   }
 
-  static substraction(a, b) {
+  static subtraction(a, b) {
     return a - b;
   }
 
-  static multiplicatoin(a, b) {
+  static multiplication(a, b) {
     return a * b;
   }
 
@@ -22,6 +22,6 @@ class Calculator {
 const operateMaker = (operate) => (a, b) => operate(a, b);
 
 const adder = operateMaker(Calculator.add);
-const substractor = operateMaker(Calculator.substraction);
-const mult = operateMaker(Calculator.multiplicatoin);
-const dividor = operateMaker(Calculator.divide);
+const subtractor = operateMaker(Calculator.substraction);
+const multiply = operateMaker(Calculator.multiplicatoin);
+const divider = operateMaker(Calculator.divide);
