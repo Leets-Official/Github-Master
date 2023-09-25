@@ -15,6 +15,13 @@ class Calculator {
     if (b === 0) {
       throw Error('0으로는 나눌 수 없습니다.');
     }
+    return a / b;
+  }
+
+  static mode(a, b) {
+    if (b === 0) {
+      throw Error('0으로는 나머지 연산을 할 수 없습니다.');
+    }
     return a % b;
   }
 }
