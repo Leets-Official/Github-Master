@@ -18,7 +18,7 @@ class Calculator {
     return a / b;
   }
 
-static mod(a, b) {
+  static mod(a, b) {
     if (b === 0) {
       throw Error('0으로는 나눌 수 없습니다.');
     }
@@ -31,4 +31,4 @@ const operateMaker = (operate) => (a, b) => operate(a, b);
 const adder = operateMaker(Calculator.add);
 const subtractor = operateMaker(Calculator.substraction);
 const multiply = operateMaker(Calculator.multiplicatoin);
-const divider = operateMaker(Calculator.divide);
+// const divider = operateMaker(Calculator.divide);
