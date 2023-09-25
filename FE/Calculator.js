@@ -15,7 +15,7 @@ class Calculator {
     if (b === 0) {
       throw Error('0으로는 나눌 수 없습니다.');
     }
-    return a / b;
+    return a % b;
   }
 }
 
