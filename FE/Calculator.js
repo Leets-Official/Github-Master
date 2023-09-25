@@ -10,7 +10,16 @@ class Calculator {
   static multiplication(a, b) {
     return a * b;
   }
+
+  static divide(a, b) {
+    return a / b;
+  }
+
+  static mod(a, b) {
+    return a % b;
+  }
 }
+
 
 const operateMaker = (operate) => (a, b) => operate(a, b);
 
