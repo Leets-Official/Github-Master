@@ -13,6 +13,7 @@ class Calculator {
 
   static sum() {
     console.log(1 + 3);
+
   }
 }
 
