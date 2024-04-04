@@ -8,6 +8,7 @@ public class Calculator {
         System.out.println("합계: " + result);
         System.out.println("뺄셈: " + minus);
         System.out.println("곱셈: " + multResult);
+        System.out.println("나눗셈");
     }
   
     private static int add(int a, int b) {
@@ -18,5 +19,9 @@ public class Calculator {
     }
     private static int multiply(int a, int b) {
         return a * b;
+    }
+
+    private static int divide(int a, int b) {
+        return a / b;
     }
 }
