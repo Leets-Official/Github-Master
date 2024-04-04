@@ -4,8 +4,11 @@ public class Calculator {
         int num2 = 3;
         int result = add(num1, num2);
         int minus = minus(num1, num2);
+        int mul= multiple(num1, num2);
         System.out.println("합계: " + result);
         System.out.println("뺄셈: " + minus);
+        System.out.println("곱셈: " + mul);
+        System.out.println("한승현은 쌈뽕해");
     }
   
     private static int add(int a, int b) {
@@ -13,5 +16,8 @@ public class Calculator {
     }
     private static int minus(int a, int b) {
         return a - b;
+    }
+    private static int multiple(int a, int b) {
+        return a * b;
     }
 }
