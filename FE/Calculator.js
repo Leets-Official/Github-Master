@@ -21,6 +21,7 @@ const operateMaker = (operate) => (a, b) => operate(a, b);
 const adder = operateMaker(Calculator.add);
 const subtractor = operateMaker(Calculator.substraction);
 const multiply = operateMaker(Calculator.multiplicatoin);
-// const divider = operateMaker(Calculator.divide);
+
+console.log(Calculator.sum());
 
 console.log(Calculator.sum());
