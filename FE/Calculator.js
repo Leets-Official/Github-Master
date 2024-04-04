@@ -12,6 +12,8 @@ class Calculator {
   }
 }
 
+
+
 const operateMaker = (operate) => (a, b) => operate(a, b);
 
 const adder = operateMaker(Calculator.add);
