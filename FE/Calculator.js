@@ -1,7 +1,7 @@
 class Calculator {
-    static add(a, b) {
-        return a + b;
-    }
+  static add(a, b) {
+    return a - b;
+  }
 }
 
 const operateMaker = (operate) => (a, b) => operate(a, b);
