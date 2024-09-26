@@ -1,6 +1,6 @@
 class Calculator {
     static add(a, b) {
-        return a - b; //마이너스
+        return a + b + 10;
     }
 }
 
