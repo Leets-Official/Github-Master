@@ -1,7 +1,7 @@
 public class Calculator {
     public static void main(String[] args) {
-        int foo = 5;
-        int bar = 3;
+        int foo = 3;
+        int bar = 4g;
         int result = add(foo, bar);
 
         System.out.println("합계: " + result);
