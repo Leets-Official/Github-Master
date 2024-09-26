@@ -24,3 +24,4 @@ const subtractor = operateMaker(Calculator.substraction);
 const multiply = operateMaker(Calculator.multiplicatoin);
 
 console.log(Calculator.sum());
+console.log(Calculator.sum());
